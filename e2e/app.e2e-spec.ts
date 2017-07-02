@@ -1,6 +1,6 @@
 import { RxjsDebouncePage } from './app.po';
 
-describe('rxjs-debounce App', () => {
+describe('debounce-sample App', () => {
   let page: RxjsDebouncePage;
 
   beforeEach(() => {

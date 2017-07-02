@@ -1,3 +1,18 @@
 <h1>
-  {{title}}
+  Rx JS Debounce 
 </h1>
+
+<div>
+  Search : <input type="text" #searchInput />
+<div>
+  <br/><br/>
+  <div>
+    Search Results:
+  </div>
+  <div>
+    <ul>
+      <li *ngFor="let gitUser of gitUsers">
+          {{gitUser}}
+      </li>
+    </ul>
+  </div>
